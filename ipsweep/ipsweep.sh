@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $1 == "" ]
+if [ "$1" == "" ]
 then
 echo "You need to set ip as input!"
 echo "syntax: ./ipsweep 192.168.1"
